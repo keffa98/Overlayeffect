@@ -1,0 +1,51 @@
+
+html,body{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5px;
+    padding: 0;
+
+}
+
+
+.imgvue{
+
+
+    position: absolute;
+    z-index: 0;
+}
+
+
+.s1{
+    position: relative;
+    z-index: 1;
+
+}
+
+.sa{
+
+    position: relative;
+    padding : 200px;
+    Z-index: 1;
+}
+
+
+.Imgagrandir{
+    width: 100%;
+    height: 643px;
+    opacity: 0.4;
+
+
+}
+
+
+.Imgagrandie{
+    width: 250px;
+    height: 250px;
+    z-index: 3;
+
+
+}
